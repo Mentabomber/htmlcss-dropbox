@@ -1,0 +1,75 @@
+/* regole generali */
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+/* classi riutilizzabili */
+
+.background-white{
+    background-color: white;
+}
+
+.background-grey{
+   background-color: rgb(180,208,231);
+}
+
+
+/* bottoni  */
+
+.small-button{
+
+}
+
+.medium-button{
+
+}
+
+.long-button{
+
+}
+
+.longer-button{
+    
+}
+
+
+
+/* header  */
+header{
+    position: relative;
+}
+
+#fixed-div{
+    position: fixed;
+    width: 100%;
+    /* margin: 20px 5px 20px 5px; da modificare after fase debug */
+}
+
+#jumbotron{
+
+}
+
+
+/* main  */
+
+
+
+
+
+/* footer  */
+
+
+
+
+
+/* debug  */
+
+#fixed-div{
+    background-color: red;
+    height: 100px;
+}
