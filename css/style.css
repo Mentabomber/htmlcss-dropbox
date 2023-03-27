@@ -106,7 +106,9 @@ div.contieni-testo ul{
 
 /* main  */
 
-
+#section-1{
+    display: flex;
+}
 
 
 
