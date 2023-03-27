@@ -105,12 +105,16 @@ div.contieni-testo ul{
 
 
 /* main  */
-
+main{
+    height: 1000px;
+}
 #section-1{
     display: flex;
 }
 
-
+main h2{
+    width: 100%;
+}
 
 /* footer  */
 
