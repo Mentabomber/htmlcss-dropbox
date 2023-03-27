@@ -50,11 +50,17 @@ header{
     /* display: flex;  vedi se è necessario avere tutto l'header flex o semplicemente un solo div   */
 }
 
-
+header div#fixed-div ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+header a{
+    padding: 0 5px;
+}
 #fixed-div{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     position: fixed;
     width: 100%;
     padding: 20px 5px 20px 5px;
@@ -106,14 +112,31 @@ div.contieni-testo ul{
 
 /* main  */
 main{
-    height: 1000px;
+    height: 100%;
 }
-#section-1{
-    display: flex;
-}
-
 main h2{
     width: 100%;
+}
+
+ #section-1{  /*magari posso trasformarla in una classe se è molto simile alle altre section */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.riga-piano-business{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+    
+    
+}
+
+.colonna-piano-business{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% /3);
 }
 
 /* footer  */
