@@ -200,6 +200,7 @@ section span{
     justify-content: baseline;
     width: 100%;
     gap: 10px;
+    margin-bottom: 100px;
 }
 div.wrapper-sottosez4 div img{
     width: 100%
@@ -207,8 +208,15 @@ div.wrapper-sottosez4 div img{
 div.wrapper-sottosez4 div{
     width: calc(100% / 3 - 7px);
 }
-div.wrapper-sottosez4 h2{
-    font-size: 22px;
+div.wrapper-sottosez4 h2, div.wrapper-sottosez5 h2{
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+/* sottosezione 5 */
+
+.wrapper-sottosez5{
+    width: 60%;
 }
 
 /* debug  */
