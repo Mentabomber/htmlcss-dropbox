@@ -188,6 +188,27 @@ section span{
 }
  #gap{ /*gap per sottosezione 3 */
     gap: 30px;
+    margin-bottom: 100px;
+}
+
+
+/* sottosezione 4 */
+
+.wrapper-sottosez4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    width: 100%;
+    gap: 10px;
+}
+div.wrapper-sottosez4 div img{
+    width: 100%
+}
+div.wrapper-sottosez4 div{
+    width: calc(100% / 3 - 7px);
+}
+div.wrapper-sottosez4 h2{
+    font-size: 22px;
 }
 
 /* debug  */
