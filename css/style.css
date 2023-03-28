@@ -219,6 +219,85 @@ div.wrapper-sottosez4 h2, div.wrapper-sottosez5 h2{
     width: 60%;
 }
 
+/* sezione 2 */
+
+#section-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 50vh;
+}
+
+/* sottosezione box aziende  */
+
+.container-box-aziende{
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-img{
+   width: 50%;
+   height: 50%;
+    
+}
+
+.container-testo-centrale{
+    width: calc(100% / 3);
+   
+    overflow: auto ;
+    background-color:rgb(245,245,245);
+}
+div.container-box-aziende img{
+    width: 50%;
+   
+    
+    
+    
+}
+#designit{
+    color: aliceblue;
+    background-color: green;
+    background-image: url(../img/designit.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    
+}
+
+#asu{
+    background-color: brown;
+}
+
+#uf{
+    background-color: cornflowerblue;
+}
+
+#topps{
+    background-color: orangered;
+}
+
+#wbr{
+
+}
+
+#hearst{
+
+}
+
+#lonely{
+
+}
+
+#clear{
+
+}
+
+/* sezione 3 */
+
+#section-3{
+    padding: 100px 0;
+}
+
 /* debug  */
 
 #fixed-div{
@@ -229,3 +308,54 @@ div.wrapper-sottosez4 h2, div.wrapper-sottosez5 h2{
 /* #jumbotron{
     height: 500px;
 } */
+
+
+/* section prova  */
+
+#section-prova{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 60vh;
+}
+
+.colonna-lato , .colonna-centro{
+    width: calc(100% / 3);
+}
+
+.colonna-lato{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    border: 1px solid black;
+}
+.colonna-centro{
+    background-color: violet;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.box-immagine-prova{
+    background-color: green;
+    border: 1px solid black;
+    width: 50%;
+    
+}
+
+.prova-img{
+    width: 50%;
+    
+   
+}
+.sinistro{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.destro{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
