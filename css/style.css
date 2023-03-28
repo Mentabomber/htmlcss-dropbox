@@ -263,23 +263,36 @@ div.wrapper-sottosez4 h2, div.wrapper-sottosez5 h2{
     height: calc(60vw / 2);
     overflow: auto ;
     background-color:rgb(245,245,245);
+    padding: 40px 60px;
 }
-div.container-box-aziende img{
+div.container-testo-centrale img{
+    width: 50%;
+    border-bottom: 1px solid black;
+    padding-bottom: 50px;
+}
+div.container-testo-centrale p{
+    padding: 50px 0;
+}
 
+.half-a-border-on-bot {
+    border-image: linear-gradient(to right, #000 50%, transparent 50%) 100% 1;
+}
+
+div.container-box-aziende img{
     position: absolute;
     top: 50%;
     right: 50%;
     transform: translate(50%, -50%);
     width: 50%;
-
 }
 
 .filter{
     filter: invert(100%);
+    /* prova ad usare fill per cambiar colore all'immagine */
 }
 #designit{
     background-color: green;
-    color: #fff;
+
 }
 
 #asu{
@@ -332,52 +345,3 @@ div.container-box-aziende img{
 } */
 
 
-/* section prova  */
-
-#section-prova{
-    position: relative;
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
-    height: 60vh;
-}
-
-.colonna-lato , .colonna-centro{
-    width: calc(100% / 3);
-}
-
-.colonna-lato{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: blue;
-    border: 1px solid black;
-}
-.colonna-centro{
-    background-color: violet;
-    border: 1px solid black;
-    overflow: auto;
-}
-
-.box-immagine-prova{
-    background-color: green;
-    border: 1px solid black;
-    width: 50%;
-    
-}
-
-.prova-img{
-    width: 50%;
-    
-   
-}
-.sinistro{
-    position: absolute;
-    top:0;
-    left: 0;
-}
-
-.destro{
-    position: absolute;
-    top: 0;
-    right: 0;
-}
