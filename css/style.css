@@ -6,7 +6,10 @@
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
 }
-
+ul{
+    padding: 0;
+    list-style: none;
+}
 /* classi riutilizzabili */
 
 .background-white{
@@ -17,6 +20,12 @@
    background-color: rgb(180,208,231);
 }
 
+.background-80{
+    width: 80%
+}
+.background-50{
+    width: 50%;
+}
 
 /* bottoni  */
 
@@ -125,9 +134,11 @@ main h2{
  #section-1{  /*magari posso trasformarla in una classe se è molto simile alle altre section */
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
+   
+    width: 100%;
+    margin: 0 auto;
     padding: 100px 0;
-    margin: 0 25%;
+    
 
 }
 section span{
@@ -154,8 +165,11 @@ section span{
 .colonna-piano-business{   
     width: calc(100% / 3);
     border: 1px solid gray;
-    height: 100%;
     
+    
+}
+div.colonna-piano-business button{/*  per farsi che il bottono e la span siano su due righe diverse */
+    display: block;
 }
 .span-border {
     display: inline-block;
@@ -232,6 +246,7 @@ div.wrapper-sottosez4 h2, div.wrapper-sottosez5 h2{
 
 .container-box-aziende{
     width: calc(100% / 3);
+    height: calc(50vw / 2);
     display: flex;
     flex-wrap: wrap;
 }
@@ -296,6 +311,10 @@ div.container-box-aziende img{
 
 #section-3{
     padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 /* debug  */
