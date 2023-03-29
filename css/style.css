@@ -333,11 +333,84 @@ div.container-box-aziende img{
 
 }
 
+/* sezione 4  */
+
+#section-4{
+    padding: 100px 0;
+    
+}
+section#section-4 div{
+    display: flex;
+    justify-content: baseline;
+    width: 50%;
+    margin: 0 auto;
+}
+
+section#section-4 p{
+    justify-content: space-evenly;
+}
+   
+
+.titolo-sezione4{
+
+}
+/* footer  */
+
+
+
+#footer-background{
+    background-color: black;
+    padding: 100px 0 40px 0;
+    color: white
+}
+
+footer ul ,li{
+    color: white;
+    line-height: 30px;
+}
+
+footer ul :first-child {
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.footer-wrapper2{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+div.footer-wrapper2 span{
+    padding: 0 5px;
+}
+.div-lingua{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+}
+
+#footer-small-border{
+    border-top: 1px solid white;
+    border-image: linear-gradient(to right, #fff 10%, transparent 10%) 100% 1;
+}
+
 /* debug  */
 
 #fixed-div{
     background-color: red;
 
+}
+input:before{
+    
 }
 
 /* #jumbotron{
