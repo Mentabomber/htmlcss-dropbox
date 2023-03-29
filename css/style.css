@@ -211,7 +211,7 @@ main h2{
     margin: 0 auto;
 }
 .padding-colonna{
-    padding: 40px 20px;
+    padding: 40px 30px;
     
 }
 
@@ -221,12 +221,21 @@ main h2{
 }
 
 .padding-colonna li{
-    padding-bottom: 10px;
+    padding-bottom: 25px;
 }
 div.padding-colonna li i{
-    padding-bottom: 22px;
     padding-right: 5px;
+    padding-bottom: 29px; 
 }
+/* .indentazione{
+    text-indent: 2em;
+    display: inline-block;
+}
+
+.bloccoco{
+   display: inline-block;
+} */
+
 .colonna-piano-business{   
     width: calc(100% / 3);
     border: 1px solid gray;
@@ -247,11 +256,22 @@ div.colonna-piano-business button{/*  per farsi che il bottone e la span siano s
 .ul-border i{
     color: rgb(8,105,255);
 }
-.ul-flex{
-    
+.ul-border h4{
+    padding-left: 15px;
 }
 
+
 /* sottosezione 2 e 3 */
+div.riga-box-enterprise.bordo-box h3{
+    font-size: 30px;
+    padding-bottom: 15px; 
+}
+
+div.riga-box-enterprise.bordo-box h4{
+    font-size: 15px;
+    padding-bottom: 40px;
+}
+
 .riga-box-enterprise{
     width: 100%;
     margin-top: 40px;
@@ -260,12 +280,12 @@ div.colonna-piano-business button{/*  per farsi che il bottone e la span siano s
 }
 .colonna-testo{
     width: 70%;
-    padding: 15px;
+    padding: 30px;
 }
 .colonna-bottone{
     width: 30%;
     text-align: center;
-    padding: 15px;
+    padding: 30px;
 }
 .bordo-box{
     border: 1px solid gray;
