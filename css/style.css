@@ -408,36 +408,36 @@ div.container-box-aziende img{
     /* prova ad usare fill per cambiar colore all'immagine */
 }
 #designit{
-    background-color: green;
+    background-color: rgb(162,211,155);
 
 }
 
 #asu{
-    background-color: brown;
+    background-color: rgb(97,8,43);
 }
 
 #uf{
-    background-color: cornflowerblue;
+    background-color: rgb(0,147,206);
 }
 
 #topps{
-    background-color: orangered;
+    background-color: rgb(255,28,28);
 }
 
 #wbr{
-
+    background-color: rgb(213,0,31);
 }
 
 #hearst{
-
+    background-color: rgb(180,208,231);
 }
 
 #lonely{
-
+    background-color: rgb(13,36,129);
 }
 
 #clear{
-
+    background-color: rgb(255,216,48);
 }
 
 /* sezione 3 */
