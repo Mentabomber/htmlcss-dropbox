@@ -32,24 +32,35 @@ ul{
  button{ /*per qualche motivo di base il background è grigio, forse per qualche altro css linkato? tipo di fontawesome? */
     background-color: white;
 }
-.small-button{
-
+button:hover{ /* i button se no non sembrano clickabili anche se sono anchors */
+    cursor: pointer;
 }
 
-.medium-button{
-    background-color: blue;
-    padding: 5px;
+.fixed-width-button{
+    width: 100px;
+}
+
+.responsive-button{
+    max-width: 300px;
+}
+.fixed-width-button , .responsive-button {
+    padding: 9px 20px;
+}
     
+
+.button-blue{
+    background-color: rgb(0,97,255);
 }
 
-.long-button{
-
+.button-white{
+    background-color: white;
 }
-
-.longer-button{
-
+.button-bordless{
+    border: 0px solid black;
 }
-
+.button-text-color-white{
+    color: white;
+}
 /* body  */
 
 body{
@@ -68,8 +79,19 @@ header div#fixed-div ul {
     list-style-type: none;
     padding: 0;
 }
+
+header div#fixed-div ul li{
+    padding-right: 15px;
+    font-size: 17px;
+}
+
+header div#fixed-div ul li button{
+    font-size: 17px;
+}
+
 header a{
     padding: 0 5px;
+    text-decoration: none;
 }
 #fixed-div{
     display: flex;
@@ -83,8 +105,9 @@ header a{
 #jumbotron{
     padding: 150px 20% 0 20%;
     width: 100%;
-    
-   
+}
+#jumbotron ul li p, span, button{
+    font-size: 20px;
 }
 .contieni-titolo{
     width: 100%;
@@ -97,9 +120,17 @@ header a{
     }
 .contieni-testo{
     width: 30%;
+    position: relative;
 }
 .contieni-testo li{
-    padding-bottom: 50px;  /* devo trovare il modo di spaziare diversamente i contenuti tra di loro perché così non è corretto (la freccia per esempio doverebbe essere alla fine) */
+    padding-bottom: 40px;
+}
+.contieni-testo li:last-child{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 60px;
+    padding: 0 0 10px 0;
 }
 div.contieni-immagine img{
         width: 100%;
@@ -109,7 +140,6 @@ div.contieni-immagine img{
 .flex-contenitore{
     display: flex;
     width: 100%;
-    
 }
 
 h1{
@@ -375,7 +405,7 @@ padding-right: 10px;
     color: white
 }
 
-footer ul ,li{
+footer li{
     color: white;
     line-height: 30px;
 }
@@ -414,15 +444,6 @@ div.footer-wrapper2 span{
     border-image: linear-gradient(to right, #fff 10%, transparent 10%) 100% 1;
 }
 
-/* debug  */
-
-#fixed-div{
-    background-color: red;
-
-}
-input:before{
-    
-}
 
 /* #jumbotron{
     height: 500px;
