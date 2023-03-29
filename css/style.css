@@ -24,7 +24,7 @@ ul{
     width: 80%
 }
 .background-50{
-    width: 50%;
+    width: 60%;
 }
 
 /* bottoni  */
@@ -134,7 +134,7 @@ main h2{
  #section-1{  /*magari posso trasformarla in una classe se è molto simile alle altre section */
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     padding: 100px 0;
     
@@ -186,10 +186,12 @@ div.colonna-piano-business button{/*  per farsi che il bottono e la span siano s
 }
 .colonna-testo{
     width: 70%;
+    padding: 15px;
 }
 .colonna-bottone{
     width: 30%;
     text-align: center;
+    padding: 15px;
 }
 .bordo-box{
     border: 1px solid gray;
@@ -198,7 +200,7 @@ div.colonna-piano-business button{/*  per farsi che il bottono e la span siano s
 .flex-box{
     display: flex;
     flex-wrap: nowrap;
-    padding: 5px 5px;
+    
 }
  #gap{ /*gap per sottosezione 3 */
     gap: 30px;
@@ -341,18 +343,27 @@ div.container-box-aziende img{
 }
 section#section-4 div{
     display: flex;
-    justify-content: baseline;
-    width: 50%;
+    justify-content: space-between;
+    width: 60%;
     margin: 0 auto;
+    font-size: 20px;
+    border-bottom:  1px solid black;
+    padding: 35px 30px 35px 0;
+    
 }
 
-section#section-4 p{
-    justify-content: space-evenly;
+section#section-4 div i{
+    font-size: 15px;
+}
+
+section#section-4 div h2{
+    font-size: 40px;
+    padding-bottom: 30px;
 }
    
 
 .titolo-sezione4{
-
+padding-right: 10px;
 }
 /* footer  */
 
