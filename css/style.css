@@ -447,8 +447,15 @@ div.container-box-aziende img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
+#section-3 h2{
+    font-size: 35px;
+    color: rgb(97,8,43) ;
+}
+
+#section-3 button{
+    width: 400px ;
+   }
 
 /* sezione 4  */
 
