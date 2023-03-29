@@ -198,6 +198,7 @@ main h2{
     width: 100%;
     height: 40px;
     border-bottom: 1px solid gray;
+    padding: 7px 0;
 }
 
 .riga-piano-business{
@@ -211,23 +212,45 @@ main h2{
 }
 .padding-colonna{
     padding: 40px 20px;
+    
+}
+
+.padding-colonna h3{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.padding-colonna li{
+    padding-bottom: 10px;
+}
+div.padding-colonna li i{
+    padding-bottom: 22px;
+    padding-right: 5px;
 }
 .colonna-piano-business{   
     width: calc(100% / 3);
     border: 1px solid gray;
-    
-    
-    
 }
-div.colonna-piano-business button{/*  per farsi che il bottono e la span siano su due righe diverse */
-    display: block;
+div.colonna-piano-business button{/*  per farsi che il bottone e la span siano su due righe diverse */
+   
+
 }
-.span-border {
-    display: inline-block;
-    border-bottom: 1px solid gray;
+.ul-padding{
+    padding-top: 30px;
     padding-bottom: 30px;
+}
+.ul-border{
+    border-image: linear-gradient(to right, gainsboro 20%, transparent 20%) 100% 1;
+    border-top: 1px solid gainsboro;
+    padding-top: 30px;
+}
+.ul-border i{
+    color: rgb(8,105,255);
+}
+.ul-flex{
     
 }
+
 /* sottosezione 2 e 3 */
 .riga-box-enterprise{
     width: 100%;
