@@ -88,6 +88,8 @@ header div#fixed-div ul {
 header div#fixed-div ul li{
     padding-right: 15px;
     font-size: 17px;
+    display: flex;           /* centra gli li verticalmente */
+    align-items: center;
 }
 
 header div#fixed-div ul li button{
@@ -331,7 +333,7 @@ div.riga-box-enterprise.bordo-box h4{
     justify-content: baseline;
     width: 100%;
     gap: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 div.wrapper-sottosez4 div img{
     width: 100%
@@ -340,9 +342,15 @@ div.wrapper-sottosez4 div{
     width: calc(100% / 3 - 7px);
 }
 div.wrapper-sottosez4 h2, div.wrapper-sottosez5 h2{
-    font-size: 35px;
+    font-size: 45px;
     margin-bottom: 50px;
+}
+div.wrapper-sottosez4 h2{
     width: 100%;
+}
+
+div.wrapper-sottosez5 h2{   /* per far andare il testo a capo  */
+    width: 60%;
 }
 
 /* sottosezione 5 */
@@ -525,9 +533,12 @@ footer ul :first-child {
     width: 60%;
     margin: 0 auto;
     padding-top: 40px;
+    align-items: center;
+    color:rgb(153,153,153);
 }
 div.footer-wrapper2 span{
     padding: 0 5px;
+    font-size: 15px;
 }
 .div-lingua{
     width: 80%;
