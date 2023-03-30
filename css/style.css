@@ -21,10 +21,12 @@ ul{
 }
 
 .background-80{
-    width: 80%
+    width: 80%;
+    margin: 0 auto;
 }
-.background-50{
+.background-60{
     width: 60%;
+    margin: 0 auto;
 }
 
 /* bottoni  */
@@ -160,9 +162,7 @@ div.contieni-testo ul{
 main{
     height: 100%;
 }
-main h2{
-    width: 100%;
-}
+
 
  #section-1{  /*magari posso trasformarla in una classe se è molto simile alle altre section */
     display: flex;
@@ -342,6 +342,7 @@ div.wrapper-sottosez4 div{
 div.wrapper-sottosez4 h2, div.wrapper-sottosez5 h2{
     font-size: 35px;
     margin-bottom: 50px;
+    width: 100%;
 }
 
 /* sottosezione 5 */
@@ -446,16 +447,20 @@ div.container-box-aziende img{
     padding: 100px 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 #section-3 h2{
-    font-size: 35px;
+    font-size: 40px;
     color: rgb(97,8,43) ;
+    width: 50%
 }
 
-#section-3 button{
-    width: 400px ;
-   }
+.flex-box2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
 
 /* sezione 4  */
 
